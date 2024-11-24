@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Organix Dashboard</title>
+</head>
+<body>
+
+    <div class="body-wrapper">
+
+        <div class="dashboard">
+
+            <div class="nav-bar">
+
+                <div class="logo">
+                    <a href="#">
+                        <img src="./images/Dashboard_task_2-removebg-preview.png" alt="Organix Icon">
+                    </a>
+                </div>
+
+                <div class="nav-link">
+
+                    <div class="search">
+
+                            <form>
+                                <div class="input-div">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                                    <input type="text" id="search" placeholder="Search" name="search">
+
+                                    <div class="cmd">
+                                        <div class="cmd-icon">
+                                            <img src="./images/qlementine-icons_key-cmd-16.svg" alt="cmd icon">
+                                        </div>
+        
+                                        <div class="f-word">
+                                            <p> F </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                    </div>
+
+                    <div class="main-menu">
+
+                        <p>MAIN MENU</p>
+
+                        <div class="link">
+                            <div class="icon">
+                                <img src="./images/mage_home-2.svg" alt="icon">
+                            </div>
+                            <p>Home</p>
+                        </div>
+
+                        <div class="link">
+                            <div class="icon">
+                                <img src="./images/solar_folder-linear.svg" alt="icon">
+                            </div>
+                            <p>Projects</p>
+                        </div>
+
+                        <div class="link">
+                            <div class="icon">
+                                <img src="./images/mynaui_calendar.svg" alt="icon">
+                            </div>
+                            <p>Calendar</p>
+                        </div>
+
+                        <div class="link">
+                            <div class="icon">
+                                <img src="./images/solar_user-linear.svg" alt="icon">
+                            </div>
+                            <p>Team Member</p>
+                        </div>
+
+                        <div class="link">
+                            <div class="icon">
+                                <img src="./images/proicons_chat.svg" alt="icon">
+                            </div>
+                            <p>Analytics</p>
+
+                        </div>
+
+                        <div class="link">
+                            <div class="icon">
+                                <img src="./images/solar_wallet-linear.svg" alt="icon">
+                            </div>
+                            <p>Wallet</p>
+                        </div>
+
+                        <div class="link">
+                            <div class="icon">
+                                <img src="./images/solar_user-linear.svg" alt="icon">
+                            </div>
+                            <p>Team Member</p>
+                        </div>
+
+                        <div class="link nav-task">
+                            <div class="icon">
+                                <img src="./images/purple_file-3.svg" alt="icon">
+                            </div>
+                            <p id="nav-task">Task</p>
+                        </div>
+
+                        <div class="link">
+                            <div class="icon">
+                                <img src="./images/system-uicons_mail.svg" alt="icon">
+                            </div>
+                            <p>Mail</p>
+                        </div>
+                    </div>
+
+                    <div class="label-menu">
+
+                        <p>LABEL</p>
+
+                        <div class="label-link">
+                            <div class="turquoise-blue">
+
+                            </div>
+
+                            <p>Marketing</p>
+                        </div>
+
+                        <div class="label-link">
+                            <div class="purple">
+
+                            </div>
+
+                            <p>Development</p>
+                        </div>
+
+                        <div class="label-link">
+                            <div class="orange">
+
+                            </div>
+
+                            <p>Design</p>
+                        </div>
+
+                        <div class="label-link">
+                            <div class="Pink">
+
+                            </div>
+
+                            <p>3D Modeling</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="content-wrapper">
+
+                <div class="header">
+                    
+                    <div class="title">
+                        <h1>Tasks</h1>
+                    </div>
+
+                   <div class="header-left">
+
+                        <div class="add-task">
+                            <button>
+                                <i class="fa-solid fa-plus"></i>
+                                Add Task
+                            </button>
+                        </div>
+
+                        <div class="icon">
+                            <img src="./images/carbon_notification-new.svg" alt="Notification">
+                        </div>
+
+                        <div class="header-avatar">
+                            <img src="./images/avatar 1.svg" alt="Avatar">
+                        </div>
+
+                   </div>
+
+
+                </div>
+
+                <div class="task-wrapper">
+                    <div class="task-wrapper-header">
+
+                        <div class="task-wrapper-header-left">
+
+                            <div class="task-tab boarder">
+                                <div class="tab-icon">
+                                    <img src="./images/solar_pause-bold.svg" alt="Hold">
+                                </div>
+                                <p>Board</p>
+                            </div>
+
+                            <div class="task-tab">
+                                <div class="tab-icon">
+                                    <img src="./images/mynaui_table.svg" alt="Hold">
+                                </div>
+                                <p>Table</p>
+                            </div>
+
+                            <div class="task-tab">
+                                <div class="tab-icon">
+                                    <img src="./images/mynaui_calendar.svg" alt="Hold">
+                                </div>
+                                <p>Calendar</p>
+                            </div>
+
+                        </div>
+
+                        <div class="task-wrapper-header-right">
+
+                            <div class="task-tab">
+                                <div class="tab-icon">
+                                    <img src="./images/iconoir_filter.svg" alt="Hold">
+                                </div>
+                                <p>Filter</p>
+                            </div>
+
+                            <div class="task-tab">
+                                <div class="tab-icon">
+                                    <img src="./images/ep_sort.svg" alt="Hold">
+                                </div>
+                                <p>Sort</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="task-wrapper-body">
+
+                        <div class="to-do">
+
+                            <div class="to-do-header purple-todo">
+                                <h3>To - Do</h3>
+
+                                <div class="add-icon">
+                                    <img src="./images/mingcute_add-line.svg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="design-mapping shadow-box">
+
+                                <div class="design-mapping-header dmh-design">
+                                    <p>DESIGN</p>
+
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+
+                                <div class="design-mapping-img">
+                                    
+                                </div>
+
+                                <div class="design-mapping-title">
+                                    <h4>Customer Journey Mapping</h4>
+
+                                    <p>Kidszone</p>
+                                </div>
+
+                                <div class="design-mapping-chips dmc-shadow-box">
+
+                                    <div class="med-month">
+
+                                        <div class="medium">
+                                            <div class="medium-icon">
+                                                <img src="./images/tabler_flag-yellow.svg" alt="flag">
+                                            </div>
+                                            <p>Medium</p>
+                                        </div>
+    
+                                        <div class="month">
+                                            <div class="month-icon">
+                                                <img src="./images/mdi_clock-outline.svg" alt="">
+                                            </div>
+    
+                                            <p>25 October</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="direction">
+                                        <img src="./images/teenyicons_direction-solid.svg" alt="">
+                                    </div>
+
+                                </div>
+
+                                <div class="design-mapping-footer">
+
+                                    <div class="design-mapping-avatar">
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 1.svg" class="img1" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 2.svg" class="img2" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 3.svg" class="img3" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 4.svg" class="img4" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="link-chat">
+                                        <div class="link">
+                                            <div class="link-icon">
+                                                <img src="./images/ci_link.svg" alt="link">
+                                            </div>
+                                            <p>16</p>
+                                        </div>
+
+                                        <div class="chat">
+                                            <div class="chat-icon">
+                                                <img src="./images/proicons_chat.svg" alt="chat">
+                                            </div>
+                                            <p>21</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="design-mapping">
+
+                                <div class="design-mapping-header dmh-design">
+                                    <p>DESIGN</p>
+
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+
+
+                                <div class="design-mapping-title">
+                                    <h4>UI Component Modification</h4>
+
+                                    <p>Bookly</p>
+                                </div>
+
+                                <p>Micro Interactions, Loading and Progress.</p>
+
+                                <div class="design-mapping-chips">
+
+                                    <div class="medium">
+                                        <div class="medium-icon">
+                                            <img src="./images/tabler_flag-yellow.svg" alt="">
+                                        </div>
+                                        <p>Medium</p>
+                                    </div>
+
+                                    <div class="month">
+                                        <div class="month-icon">
+                                            <img src="./images/mdi_clock-outline.svg" alt="">
+                                        </div>
+
+                                        <p>28 October</p>
+                                    </div>
+                                </div>
+
+                                <div class="design-mapping-footer">
+
+                                    <div class="design-mapping-avatar">
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 1.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 2.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 3.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 4.svg" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="link-chat">
+                                        <div class="link">
+                                            <div class="link-icon">
+                                                <img src="./images/ci_link.svg" alt="link">
+                                            </div>
+                                            <p>03</p>
+                                        </div>
+
+                                        <div class="chat">
+                                            <div class="chat-icon">
+                                                <img src="./images/proicons_chat.svg" alt="chat">
+                                            </div>
+                                            <p>32</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="to-do">
+
+                            <div class="to-do-header turquoise-todo">
+                                <h3>In Progress</h3>
+
+                                <div class="add-icon">
+                                    <img src="./images/mingcute_add-line.svg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="design-mapping">
+
+                                <div class="design-mapping-header dmh-development">
+                                    <p>DEVELOPMENT</p>
+
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+
+
+                                <div class="design-mapping-title">
+                                    <h4>Database Customization</h4>
+
+                                    <p>Uber</p>
+                                </div>
+
+                                <p>Customising the Database for Uber's Internal System, focusing on micro-interactions.</p>
+
+                                <div class="design-mapping-chips">
+
+                                    <div class="medium">
+                                        <div class="medium-icon">
+                                            <img src="./images/tabler_flag-yellow.svg" alt="">
+                                        </div>
+                                        <p>Medium</p>
+                                    </div>
+
+                                    <div class="month">
+                                        <div class="month-icon">
+                                            <img src="./images/mdi_clock-outline.svg" alt="">
+                                        </div>
+
+                                        <p>21 October</p>
+                                    </div>
+                                </div>
+
+                                <div class="design-mapping-footer">
+
+                                    <div class="design-mapping-avatar">
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 1.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 2.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 3.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 4.svg" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="link-chat">
+                                        <div class="link">
+                                            <div class="link-icon">
+                                                <img src="./images/ci_link.svg" alt="link">
+                                            </div>
+                                            <p>10</p>
+                                        </div>
+
+                                        <div class="chat">
+                                            <div class="chat-icon">
+                                                <img src="./images/proicons_chat.svg" alt="chat">
+                                            </div>
+                                            <p>06</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="design-mapping">
+
+                                <div class="design-mapping-header dmh-modeling">
+                                    <p>3D MODELING</p>
+
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+
+
+                                <div class="design-mapping-title">
+                                    <h4>Fix Interior Planning</h4>
+
+                                    <p>Hotel Nice</p>
+                                </div>
+
+                                <p>Addressing Layout and functional issuesin the 3d modelingof interior spaces.</p>
+
+                                <div class="design-mapping-chips">
+
+                                    <div class="medium low">
+                                        <div class="medium-icon">
+                                            <img src="./images/tabler_flag-green.svg" alt="">
+                                        </div>
+                                        <p>Low</p>
+                                    </div>
+
+                                    <div class="month">
+                                        <div class="month-icon">
+                                            <img src="./images/mdi_clock-outline.svg" alt="">
+                                        </div>
+
+                                        <p>13 October</p>
+                                    </div>
+                                </div>
+
+                                <div class="design-mapping-footer">
+
+                                    <div class="design-mapping-avatar">
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 1.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 2.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 3.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 4.svg" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="link-chat">
+                                        <div class="link">
+                                            <div class="link-icon">
+                                                <img src="./images/ci_link.svg" alt="link">
+                                            </div>
+                                            <p>13</p>
+                                        </div>
+
+                                        <div class="chat">
+                                            <div class="chat-icon">
+                                                <img src="./images/proicons_chat.svg" alt="chat">
+                                            </div>
+                                            <p>09</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="to-do">
+
+                            <div class="to-do-header green-todo">
+                                <h3>Done</h3>
+
+                                <div class="add-icon">
+                                    <img src="./images/mingcute_add-line.svg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="design-mapping">
+
+                                <div class="design-mapping-header dmh-design">
+                                    <p>DESIGN</p>
+
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+
+
+                                <div class="design-mapping-title">
+                                    <h4>Redesign Wordpress Website</h4>
+
+                                    <p>Design Lab</p>
+                                </div>
+
+                                <p>Redesigning the Website for Design Lab to enhance usability and visual appeal.</p>
+
+                                <div class="design-mapping-chips">
+
+                                    <div class="medium high">
+                                        <div class="medium-icon">
+                                            <img src="./images/tabler_flag-red.svg" alt="">
+                                        </div>
+                                        <p>High</p>
+                                    </div>
+
+                                    <div class="month">
+                                        <div class="month-icon">
+                                            <img src="./images/mdi_clock-outline.svg" alt="">
+                                        </div>
+
+                                        <p>17 October</p>
+                                    </div>
+                                </div>
+
+                                <div class="design-mapping-footer">
+
+                                    <div class="design-mapping-avatar">
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 1.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 2.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 3.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 4.svg" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="link-chat">
+                                        <div class="link">
+                                            <div class="link-icon">
+                                                <img src="./images/ci_link.svg" alt="link">
+                                            </div>
+                                            <p>02</p>
+                                        </div>
+
+                                        <div class="chat">
+                                            <div class="chat-icon">
+                                                <img src="./images/proicons_chat.svg" alt="chat">
+                                            </div>
+                                            <p>29</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="design-mapping">
+
+                                <div class="design-mapping-header dmh-marketing">
+                                    <p>MARKETING</p>
+
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </div>
+
+
+                                <div class="design-mapping-title">
+                                    <h4>Facebook Ads Campaign</h4>
+
+                                    <p>Plantify</p>
+                                </div>
+
+                                <div class="design-mapping-chips ">
+
+                                    <div class="medium">
+                                        <div class="medium-icon">
+                                            <img src="./images/tabler_flag-yellow.svg" alt="flag">
+                                        </div>
+                                        <p>Medium</p>
+                                    </div>
+
+                                    <div class="month">
+                                        <div class="month-icon">
+                                            <img src="./images/mdi_clock-outline.svg" alt="">
+                                        </div>
+
+                                        <p>20 October</p>
+                                    </div>
+                                </div>
+
+                                <div class="design-mapping-footer">
+
+                                    <div class="design-mapping-avatar">
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 1.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 2.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 3.svg" alt="">
+                                        </div>
+
+                                        <div class="design-avatar">
+                                            <img src="./images/avatar 4.svg" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="link-chat">
+                                        <div class="link">
+                                            <div class="link-icon">
+                                                <img src="./images/ci_link.svg" alt="link">
+                                            </div>
+                                            <p>03</p>
+                                        </div>
+
+                                        <div class="chat">
+                                            <div class="chat-icon">
+                                                <img src="./images/proicons_chat.svg" alt="chat">
+                                            </div>
+                                            <p>17</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
